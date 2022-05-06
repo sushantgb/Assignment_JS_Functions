@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="javascript_validation.css" type="text/css">
+</head>
+<body>
+    <!-- Heading div -->
+    <div class="heading">
+        <h3>Enter Your Details To Validate</h3>
+    </div>
+    <!-- Form that evoke validate() function from javascript file -->
+    <form onsubmit= "validate();" name="validform">
+        <!-- For applicant's name -->
+        <label for="fullname">Name</label>
+        <input type="text" name="fullname">
+        <!-- For applicant's date of birth -->
+        <label for="dob">Date Of Birth</label>
+        <input type="date" name="dob">
+        <!-- For email address -->
+        <label for="email">Email Address</label>
+        <input type="email" name="email">
+        <!-- For selecting region of applicanr -->
+        <label for="region">Select Your Region</label>
+        <select name="region" id="region">
+            <option value="0">Select</option>
+            <option value="AN">Andaman & Nicobar</option>
+            <option value="LK">Lakshadweep</option>
+            <option value="NE">North East</option>
+            <option value="NW">North West</option>
+            <option value="NT">Northern</option>
+            <option value="CEN">Central</option>
+            <option value="WT">Western</option>
+            <option value="ET">Eastern</option>
+            <option value="SW">South West</option>
+            <option value="SE">South East</option>
+            <option value="ST">Southern</option>
+        </select>
+        <!-- For entering pincode of the city -->
+        <label for="pincode">Pincode</label>
+        <input type="text" name="pincode">
+        <!-- Submit button -->
+        <button type="submit">SUBMIT</button>
+    </form>
+    <script src="javascript_validation.js" type="text/javascript"></script>
+</body>
+</html>

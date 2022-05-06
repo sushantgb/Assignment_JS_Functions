@@ -1,0 +1,64 @@
+/* Importing bootstrap icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+/* --styling of page--- */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(138, 135, 135);
+}
+/* heading div styling */
+.heading{
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 5px;
+    background-color: rgb(68, 213, 131);
+    opacity: 0.8;
+    border: solid 1px;
+    border-style: none;
+    border-radius: 5px;
+}
+/* form styling */
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    margin: auto;
+    width: 300px;
+    gap: 5px;
+    background-color: rgb(95, 228, 228);
+    opacity: 0.8;
+    border: solid 1px;
+    border-style: none;
+    border-radius: 5px;
+    padding: 4px;
+}
+/* styling of form elements */
+input,label,select{
+    width: 80%;
+    position: relative;
+    margin: auto;
+    border-style: none;
+    padding: 5px;
+    font-size: medium;
+}
+button{
+    width: 40%;
+    position: relative;
+    margin: auto;
+    margin-top: 15px;
+    background-color: rgb(165, 71, 189);
+    border-style: none;
+    padding:5px;
+    color: rgb(249, 250, 251);
+    opacity: 0.8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ------------------ */
